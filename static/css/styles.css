@@ -1,0 +1,101 @@
+
+#signup-button, #login-button {
+ align-items: center;
+ background-color: #0A66C2;
+ border: 0;
+ border-radius: 100px;
+ box-sizing: border-box;
+ color: #ffffff;
+ cursor: pointer;
+ display: inline-flex;
+ font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+ font-size: 16px;
+ font-weight: 600;
+ justify-content: center;
+ line-height: 20px;
+ max-width: 480px;
+ min-height: 40px;
+ min-width: 0px;
+ overflow: hidden;
+ padding: 0px;
+ padding-left: 20px;
+ padding-right: 20px;
+ text-align: center;
+ touch-action: manipulation;
+ transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+ user-select: none;
+ -webkit-user-select: none;
+ vertical-align: middle;
+}
+
+#signup-button, #login-button:hover,
+#signup-button, #login-button:focus { 
+ background-color: #16437E;
+ color: #ffffff;
+}
+
+#signup-button, #login-button:active {
+ background: #09223b;
+ color: rgb(255, 255, 255, .7);
+}
+
+#featured {
+ color: #354b40; font-family: 'Helvetica Neue', sans-serif;
+ font-size: 46px;
+ font-weight: 100; 
+ line-height: 50px; 
+ letter-spacing: 1px; 
+ padding: 0 0 40px; 
+ border-bottom: solid  rgb(46, 61, 46); 
+}
+
+.card-columns.scroll {
+ animation: scroll 1s ease-in-out;
+}
+
+@keyframes scroll {
+ from {
+   transform: translateY(0);
+ }
+ to {
+   transform: translateY(-10px);
+ }
+}
+
+@media (max-width: 575.98px) {
+ .card-title {
+   font-size: 0.8rem;
+ }
+ .card {
+   margin: 0.5rem;
+   padding: 0.5rem;
+ }
+}
+
+@media (max-width: 575.98px) {
+ .form-control {
+   font-size: 0.8rem;
+ }
+ .btn {
+   font-size: 0.8rem;
+ }
+}
+
+#banner {
+ background-color: #d9d9d9;
+} 
+
+@media (min-width: 576px) {
+ #banner img {
+   width: 100%;
+   height: 400px;
+   margin: 0 auto;
+   object-fit: contain;
+ }
+}
+
+.navbar-brand img {
+ max-width: 200px;
+ max-height: 50px;
+ object-fit: contain;
+}
